@@ -16,7 +16,7 @@ const certifications = [
     date: "2025",
     description: "Foundational course in cloud computing and web technologies for all skill levels.",
     image: "certificates/Bongani Kokwe - Foundations of Cloud Computing and Web Technologies_page-0001.jpg",
-    certificateId: "/certificates/Bongani%Kokwe%-%Foundations%of%Cloud%Computing%and%Web%Technologies.pdf",
+    certificateId: "/certificates/Bongani Kokwe - Foundations of Cloud Computing and Web Technologies.pdf",
   },
   {
     title: "FNB Full Stack Developer Bootcamp",
@@ -77,7 +77,7 @@ const Certifications = () => {
           <div className="w-20 h-1 bg-primary rounded-full mx-auto mb-6"></div>
           <p className="text-muted-foreground max-w-2xl mx-auto">
             Professional certifications and credentials demonstrating my expertise and commitment to continuous learning.
-            <br></br> <strong>Click on the certificates to view them.</strong>
+            <br></br><br></br> <strong>Click on the certificates to view them.</strong>
           </p>
         </div>
 

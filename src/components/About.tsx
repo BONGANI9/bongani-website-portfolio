@@ -56,14 +56,15 @@ const About = () => {
             My expertise also includes visual design, user experience (UX), and cloud technologies, enabling me to deliver experiences that are intuitive, visually compelling, and highly functional.
             I thrive on solving complex problems with creative solutions, collaborating with teams, and turning innovative ideas into reality. Committed to continuous learning, 
             I stay ahead of emerging trends in technology and design to ensure the solutions I deliver are impactful and results-driven.
-            <br></br><strong>Skills & Expertise:</strong> <br></br>
+            
+            <br></br><br></br><strong>Skills & Expertise:</strong> <br></br>
             Software Engineering & Development
             Mobile App Development (iOS & Android)
             Frontend & Backend Web Development
             AI & Data-Driven Tools
             Interactive Dashboards & Analytics
             Cloud Computing & Deployment
-            Visual Design & UX
+            Visual Design & UX.
             </p>
           </div>
         </div>

@@ -9,29 +9,29 @@ const Hero = () => {
     <section id="home" className="min-h-screen flex items-center justify-center pt-16 bg-gradient-to-br from-background to-secondary">
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-2 gap-12 items-center">
-          {/* Text Content */}
-          <div className="space-y-6 text-center md:text-left">
-            <div className="inline-flex items-center gap-4 px-4 py-2 bg-primary/10 rounded-full">
-              <span className="text-sm font-semibold text-primary">+7 Projects Completed</span>
-              <span className="text-sm text-muted-foreground">|</span>
-              <span className="text-sm text-muted-foreground">+0 Startup Raised</span>
+            {/* Text Content */}
+            <div className="space-y-8 text-center md:text-left">
+              <div className="inline-flex items-center gap-5 px-5 py-3 bg-primary/10 rounded-full">
+                <span className="text-base font-semibold text-primary">+7 Projects Completed</span>
+                <span className="text-base text-muted-foreground">|</span>
+                <span className="text-base text-muted-foreground">+0 Startup Raised</span>
+              </div>
+
+              <h1 className="text-6xl md:text-7xl font-bold text-foreground">
+                Welcome
+              </h1>
+
+              <p className="text-2xl md:text-3xl text-muted-foreground">
+                It's <span className="text-primary font-semibold">Bongani Kokwe</span>, a Digital Associate
+              </p>
+
+              <button
+                onClick={scrollToAbout}
+                className="flex items-center gap-2 text-lg text-muted-foreground hover:text-primary transition-colors mx-auto md:mx-0"
+              >
+                Scroll down <ArrowDown className="animate-bounce" size={24} />
+              </button>
             </div>
-            
-            <h1 className="text-5xl md:text-6xl font-bold text-foreground">
-              Welcome
-            </h1>
-            
-            <p className="text-xl md:text-2xl text-muted-foreground">
-              It's <span className="text-primary font-semibold">Bongani Kokwe</span>, a Digital Associate
-            </p>
-            
-            <button
-              onClick={scrollToAbout}
-              className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors mx-auto md:mx-0"
-            >
-              Scroll down <ArrowDown className="animate-bounce" size={20} />
-            </button>
-          </div>
 
           {/* Image - Made smaller and more contained */}
           <div className="flex justify-center">
