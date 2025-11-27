@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 215 25% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 215 25% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 215 25% 15%;
+
+    --primary: 215 100% 50%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 215 20% 95%;
+    --secondary-foreground: 215 25% 15%;
+
+    --muted: 215 20% 96%;
+    --muted-foreground: 215 15% 45%;
+
+    --accent: 215 100% 60%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 215 20% 90%;
+    --input: 215 20% 90%;
+    --ring: 215 100% 50%;
+
+    --radius: 0.5rem;
+
+    /* Custom portfolio colors */
+    --hero-gradient-start: 215 100% 50%;
+    --hero-gradient-end: 250 100% 60%;
+    --section-bg: 215 20% 98%;
+  }
+
+  .dark {
+    --background: 215 28% 8%;
+    --foreground: 0 0% 98%;
+
+    --card: 215 28% 12%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 215 28% 12%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 215 100% 60%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 215 25% 15%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 215 25% 15%;
+    --muted-foreground: 215 15% 65%;
+
+    --accent: 215 100% 60%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 215 25% 18%;
+    --input: 215 25% 18%;
+    --ring: 215 100% 60%;
+
+    --hero-gradient-start: 215 100% 40%;
+    --hero-gradient-end: 250 100% 50%;
+    --section-bg: 215 28% 10%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
