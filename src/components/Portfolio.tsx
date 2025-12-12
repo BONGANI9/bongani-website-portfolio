@@ -38,6 +38,12 @@ const projects = [
     image: "/media/aurthor.png",
     link: "https://genuine-florentine-d6bac1.netlify.app/",
   },
+    {
+    title: "My Artist music Portfolio",
+    description: "This project involved creating a website for an Artist music Portfolio Website, showcasing the Artist's work and providing information about the Artist.",
+    image: "/media/artistport.png",
+    link: "https://kwessjunior.netlify.app/",
+  },
 ];
 
 const Portfolio = () => {
